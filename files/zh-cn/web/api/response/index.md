@@ -51,15 +51,15 @@ slug: Web/API/Response
 
 `Response` 实现了 {{domxref("Body")}} 接口，所以以下方法同样可用：
 
-- {{domxref("Body.arrayBuffer()")}}
+- {{domxref("Response.arrayBuffer()")}}
   - : 读取 {{domxref("Response")}} 对象并且将它设置为已读（因为 Responses 对象被设置为了 stream 的方式，所以它们只能被读取一次），并返回一个被解析为 {{domxref("ArrayBuffer")}} 格式的 Promise 对象。
-- {{domxref("Body.blob()")}}
+- {{domxref("Response.blob()")}}
   - : 读取 {{domxref("Response")}} 对象并且将它设置为已读（因为 Responses 对象被设置为了 stream 的方式，所以它们只能被读取一次），并返回一个被解析为 {{domxref("Blob")}} 格式的 Promise 对象。
-- {{domxref("Body.formData()")}}
+- {{domxref("Response.formData()")}}
   - : 读取{{domxref("Response")}} 对象并且将它设置为已读（因为 Responses 对象被设置为了 stream 的方式，所以它们只能被读取一次），并返回一个被解析为 {{domxref("FormData")}} 格式的 Promise 对象。
-- {{domxref("Body.json()")}}
+- {{domxref("Response.json()")}}
   - : 读取 {{domxref("Response")}} 对象并且将它设置为已读（因为 Responses 对象被设置为了 stream 的方式，所以它们只能被读取一次），并返回一个被解析为 {{domxref("JSON")}} 格式的 Promise 对象。
-- {{domxref("Body.text()")}}
+- {{domxref("Response.text()")}}
   - : 读取 {{domxref("Response")}} 对象并且将它设置为已读（因为 Responses 对象被设置为了 stream 的方式，所以它们只能被读取一次），并返回一个被解析为 {{domxref("USVString")}} 格式的 Promise 对象。
 
 ## 示例
